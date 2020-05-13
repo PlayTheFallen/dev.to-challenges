@@ -1,0 +1,33 @@
+{
+	"name": "dev.to-javascript-solutions",
+	"version": "1.0.0",
+	"description": "- [#241 - Tip Calculator](./challenges/241-tip-calculator)",
+	"main": "index.js",
+	"scripts": {
+		"test": "xo && ava --verbose"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PlayTheFallen/dev.to-challenges.git"
+	},
+	"author": "Junior <PlayTheFallen@outlook.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PlayTheFallen/dev.to-challenges/issues"
+	},
+	"homepage": "https://github.com/PlayTheFallen/dev.to-challenges#readme",
+	"devDependencies": {
+		"ava": "^3.8.2",
+		"eslint-config-xo": "^0.29.1",
+		"xo": "^0.30.0"
+	},
+	"eslintConfig": {
+		"extends": "xo/esnext"
+	},
+	"xo": {
+		"rules": {
+			"import/extensions": "off"
+		}
+	},
+	"type": "module"
+}
